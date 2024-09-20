@@ -11,4 +11,4 @@ def cv_index(request):
     'degree': 'Master',
     'freelance' : 'Available',
     'age': '32'}
-    return render(request, "index.html", context)
+    return render(request, "website/index.html", context)
